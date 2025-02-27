@@ -98,31 +98,21 @@ li#intro-text{
 
 #cards {
   background: linear-gradient(45deg, var(--blue-gray) 80%, var(--main-gray));
-  display: flex;
-  justify-content: space-around;
   color: White;
-  flex-wrap: wrap;
   text-align: center;
+  width: 100vw;
+  padding-top: 5px;
+  padding-bottom: 3rem;
 }
-
 
 
 .card-tiles{
   width: 500px;
   text-align: center;
-}
-.project-image {
-  width: 500px;
+  display: flex;
 }
 
-@media only screen and (max-width:700px){
-.project-tile{
-  width: 300px;
-  text-align: center;}
-  .project-image {
-  width: 300px;
-}
-}
+
 
 #socials {
   width: 100vw;
