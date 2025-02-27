@@ -102,6 +102,7 @@ li#intro-text{
   justify-content: space-around;
   color: White;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 
