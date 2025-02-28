@@ -1,6 +1,7 @@
 *, ::before, ::after {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  border: 1px solid white;
 }
 
 :root {
@@ -93,7 +94,8 @@ li#intro-text{
 }
 
 #video {
-  
+    width:65vw;
+    height: 36.56525vw;
 }
 
 #cards {
@@ -103,13 +105,23 @@ li#intro-text{
   width: 100vw;
   padding-top: 5px;
   padding-bottom: 3rem;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 
 .card-tiles{
-  width: 500px;
+  width: 90vw;
   text-align: center;
+  font-size: 1rem;
+  display: grid;
+}
+
+.card-tile{
+  width: 33%;
   display: flex;
+  position: relative;
+  max-width: 30px;
 }
 
 
