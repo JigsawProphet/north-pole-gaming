@@ -80,6 +80,7 @@ li > a{
   height: 500px;
   color: white;
   border-radius: 10px;
+  z-index: 100;
 }
 
 .topnav {
@@ -89,6 +90,7 @@ li > a{
   display: block;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
+  z-index: 100;
 }
 
 .topnav #myLinks {
