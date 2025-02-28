@@ -11,6 +11,11 @@
   --main-gray: #d6dae6;
 
 }
+html {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
 
 body{
   margin: 0;
@@ -27,7 +32,9 @@ body{
   align-items: flex-end;
   position: fixed;
   width: 100vw;
-  padding-bottom: 1px;
+  padding: 5px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 #nav-heading{
@@ -63,6 +70,7 @@ li > a{
   text-align: center;
   padding-bottom: 50px;
   color: white;
+  scroll-margin-top: 20px;
 }
 
 .welcome-text {
@@ -90,6 +98,7 @@ li#intro-text{
   color: white;
   padding-top: 5px;
   padding-bottom: 3rem;
+  scroll-margin-top: 70px;
 }
 
 #video {
