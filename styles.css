@@ -233,7 +233,7 @@ li#intro-text{
   gap: 2rem;
   padding: 2rem;
   list-style: none;
-  overflow-x: wrap;
+  overflow-x: scroll;
   scroll-snap-type: x mandatory;
 }
 .overlay-link{
