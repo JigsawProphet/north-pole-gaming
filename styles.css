@@ -232,9 +232,12 @@ li#intro-text{
 .list {
   display: flex;
   gap: 2rem;
-  padding: 4rem;
+  padding: 2rem;
+  padding-bottom: 3.75rem;
+  height: 100%;
   list-style: none;
   overflow-x: scroll;
+  overflow-y: hidden;
   scroll-snap-type: x mandatory;
 }
 .overlay-link{
