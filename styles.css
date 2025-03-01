@@ -232,7 +232,7 @@ li#intro-text{
 .list {
   display: flex;
   gap: 2rem;
-  padding: 2rem;
+  padding: 4rem;
   list-style: none;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
